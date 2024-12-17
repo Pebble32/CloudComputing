@@ -3,9 +3,10 @@ This repository contains the code for visualizing and interpreting TimeSFormer (
 
 ## Project Overview
 ### What the Project Does:
-Visualizes attention maps from a TimeSFormer (Transformer-based model) pre-trained on Kinetics-400.
-Applies Grad-CAM to a 3D CNN to interpret activation maps at various layers.
-Highlights the differences in how Transformers and CNNs process spatio-temporal features.
+- Visualizes attention maps from a TimeSFormer (Transformer-based model) pre-trained on Kinetics-400.
+- Applies Grad-CAM to a 3D CNN to interpret activation maps at various layers.
+- Highlights the differences in how Transformers and CNNs process spatio-temporal features.
+
 ### Techniques Used:
 1. Attention Rollout: Shows how attention flows through layers in TimeSFormer.
 2. Grad-CAM: Generates heatmaps to visualize class-specific regions in 3D CNN outputs.
